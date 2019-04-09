@@ -11,7 +11,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.6
-  - [x] GIF Walkthrough: (XSS1.gif)
+  - [x] GIF Walkthrough: ![XSS1](https://user-images.githubusercontent.com/25422131/55770491-82d00600-5a52-11e9-86fc-d3f83d93c5a9.gif)
   - [x] Steps to recreate: Make a post and then enter the following in the reply:
     
     `http://www.test.com/wp-admin/customize.php?theme=<svg onload=alert(1)>`
